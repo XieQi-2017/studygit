@@ -26,3 +26,5 @@ git reset - -hard HEAD^^    //回退到上上个版本
 git reset - -hard HEAD~100  //回退到前100个版本
 cat filename        //查看内容
 </pre>
+
+看一下git在vscode上面是不是可以用了？
