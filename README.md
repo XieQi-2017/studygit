@@ -26,5 +26,18 @@ git reset - -hard HEAD^^    //回退到上上个版本
 git reset - -hard HEAD~100  //回退到前100个版本
 cat filename        //查看内容
 </pre>
-
-看一下git在vscode上面是不是可以用了？
+<pre>
+git clone 复制地址  
+git checkout -b 文件分支
+git push --set-upstream origin 文件分支
+pub get --offline
+git add *.*
+git commit -m '说明'
+git push 
+</pre>
+<pre>
+git checkout 分支
+//切换到你自己的分之上来
+git pull 分支
+//从网上下载最新的版本，然后同你本地的版本合并
+</pre>
